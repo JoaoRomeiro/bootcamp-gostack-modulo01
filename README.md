@@ -34,3 +34,17 @@ GoStack Bootcamp: Ambiente e Conceitos
 
 # Envia as alterações para o respositório remoto
 <git push -u origin master>
+
+# Fase 02: Query & Route params
+
+Existem 3 tipos de parametros
+Query params: ?pagina=2
+Route params: /users/1
+Request body: {"name": "Joao", "email": "j.romeiro@live.com"}
+
+# Commit
+<git add .>
+<git commit -m "Fase 02: Query & Route params">
+
+# Envia as alterações para o respositório remoto
+<git push>
