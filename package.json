@@ -5,7 +5,13 @@
   "repository": "https://github.com/JoaoRomeiro/bootcamp-modulo01.git",
   "author": "jromeiro <j.romeiro@live.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }

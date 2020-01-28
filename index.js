@@ -25,7 +25,7 @@ server.get("/users", (req, res) => {
     return res.json({ mensagem: `Olá ${name}` });
 });
 
-const users = ["Joao", "Ana", "Camilla"];
+const users = ["João", "Ana", "Camilla"];
 
 // Route params
 server.get("/users/:index", (req, res) => {

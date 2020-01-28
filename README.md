@@ -57,3 +57,21 @@ Request body: {"name": "Joao", "email": "j.romeiro@live.com"}
 
 # Envia as alterações para o respositório remoto
 <git push>
+
+# Fase 02: Utilizando Nodemon
+
+Instala o nodemon para que não seja mais necessário reiniciar o servidor toda vez que o projeto sofrer alguma alteração
+O parametro -D informa que o nodemon será instalado apenas no ambiente de desenvolvimento
+<yarn add nodemon -D>
+
+Cria o atalho dev na propriedade scripts dentro do arquivo package.json
+
+Para executar iniciar o servidor através de dev
+<yarn dev>
+
+# Commit
+<git add .>
+<git commit -m "Fase 02: Utilizando Nodemon">
+
+# Envia as alterações para o respositório remoto
+<git push>
