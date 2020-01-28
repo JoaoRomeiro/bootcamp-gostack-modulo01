@@ -28,6 +28,9 @@ GoStack Bootcamp: Ambiente e Conceitos
 # Cria o arquivo index.js
 <New-Item -Path 'index.js' -ItemType File>
 
-# commit
+# Commit
 <git add .>
 <git commit -m "Fase 02: Criando Aplicação">
+
+# Envia as alterações para o respositório remoto
+<git push -u origin master>
