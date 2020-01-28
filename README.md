@@ -75,3 +75,14 @@ Para executar iniciar o servidor através de dev
 
 # Envia as alterações para o respositório remoto
 <git push>
+
+# Fase 02: CRUD
+
+CRUD: Create, Read, Update, Delete
+
+# Commit
+<git add .>
+<git commit -m "Fase 02: CRUD">
+
+# Envia as alterações para o respositório remoto
+<git push>
