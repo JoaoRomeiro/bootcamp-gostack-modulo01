@@ -48,3 +48,12 @@ Request body: {"name": "Joao", "email": "j.romeiro@live.com"}
 
 # Envia as alterações para o respositório remoto
 <git push>
+
+# Fase 02: Utilizando Insominia
+
+# Commit
+<git add .>
+<git commit -m "Fase 02: Utilizando Insominia">
+
+# Envia as alterações para o respositório remoto
+<git push>

@@ -25,8 +25,10 @@ server.get("/users", (req, res) => {
     return res.json({ mensagem: `Olá ${name}` });
 });
 
-// Rouote params
-server.get("/users/:id", (req, res) => {
+const users = ["Joao", "Ana", "Camilla"];
+
+// Route params
+server.get("/users/:index", (req, res) => {
     //console.log("teste");
 
     // Retorna um texto
@@ -35,10 +37,10 @@ server.get("/users/:id", (req, res) => {
     //const id = req.params.id;
 
     // Desconstrução
-    const { id } = req.params;
+    const { index } = req.params;
 
     // Retorna um json
-    return res.json({ mensagem: `O ID solicitado é ${id}` });
+    return res.json(users[index]);
 });
 
 // Definir a porta do servidor
