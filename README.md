@@ -86,3 +86,20 @@ CRUD: Create, Read, Update, Delete
 
 # Envia as alterações para o respositório remoto
 <git push>
+
+# Fase 02: Middlewares
+
+Middlewares são funções que recebem o req (request) e o res (response) e manipulam essas informações de alguma forma
+
+Diante disso, podemos entender que o segundo parametro de todas as rotas criadas no arquivo index.js são Middlewares
+
+Middleware global é um middleware que sempre será chamado, não importa a rota
+
+Os middlewares podem alterar os parametros req (request) e res (response)
+
+# Commit
+<git add .>
+<git commit -m "Fase 02: Middlewares">
+
+# Envia as alterações para o respositório remoto
+<git push>
