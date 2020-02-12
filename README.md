@@ -17,7 +17,7 @@ GoStack Bootcamp: Ambiente e Conceitos
 # Cria o arquivo .gitignore para não rastrear certos arquivos e pastas
 <New-Item -Path '.gitignore' -ItemType File>
 
-# Cria o arquivo package.json, que será responsável por gerenciar as dependências que forem instaladas via npm ou yarn
+# Inicar o yarn para gerenciar as dependências do projeto
 <yarn init -y>
 
 # Instala o express, que é o framework que será utilizado no projeto
